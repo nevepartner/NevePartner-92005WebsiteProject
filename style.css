@@ -1,0 +1,15 @@
+.banner-image{
+    background-image: url(steam-rocks.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+   color: #670000;
+   position: absolute;
+   text-align: center;
+   top: 30px;
+   width: 100%;
+   font-size: 5rem
+}
