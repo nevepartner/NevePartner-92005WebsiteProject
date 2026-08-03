@@ -1,6 +1,10 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #bebcb6;
+}
+*{
+    overflow-x: hidden;
 }
 
 .banner-image{
@@ -31,4 +35,22 @@ h1{
 
 a{
     color: rgb(245, 210, 165);
+}
+
+
+img{
+    width: 100%
+}
+.info-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    width: 100%;
+    color: #670000;
+    margin: auto;
+}
+
+.info{
+    font-size: 20px;
+    overflow-wrap: break-word;
 }
